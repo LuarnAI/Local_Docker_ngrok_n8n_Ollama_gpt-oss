@@ -1,8 +1,6 @@
-# n8n 基本 Docker Compose 設置，加上 ngrok 可進行公開存取
+# 使用Docker Compose安裝ngrok, 本地運行n8n, ollama
 
-
-用於運行 n8n 工作流自動化工具
-此配置為在本地運行 n8n 容器所需的基礎設置，並搭配 PostgreSQL 資料庫和 ngrok 進行公開存取。
+# 並搭配 PostgreSQL 資料庫
 
 ## 功能特點
 
