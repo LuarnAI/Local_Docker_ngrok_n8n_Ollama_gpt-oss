@@ -4,13 +4,15 @@
 services:
 
   ngrok:
-    image: ngrok/ngrok:3-alpine
+    image: ngrok/ngrok:latest
     restart: unless-stopped
     ports:
       - 4040:4040
     command:
       - "http"
-      - "http://host.docker.internal:5678"
+      - "n8n:5678" # 更改：直接指向 n8n 服務，更穩定
+      - "--domain" # 新增：指定網域的參數
+      - "joey-content-fawn.ngrok-free.app" # 改成你的固定網址
     environment:
       - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
     networks:
