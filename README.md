@@ -31,8 +31,8 @@ N8N_BASIC_AUTH_PASSWORD=adminpass
 OLLMA_MODEL_PATH=/root/.ollama
 
 # ngrok 配置
-NGROK_AUTHTOKEN=31BOmM8fQnD4oacJ3dea9sP81hp_4LSUST6bkEX4ZRNfWh4PN
-NGROK_PUBLIC_URL=https://88c7648c7a88.ngrok-free.app/
+NGROK_AUTHTOKEN= 你自己申請的AUTHTOKEN
+NGROK_PUBLIC_URL= 你和Ngrok申請的免費Domain URL
 
 ```
 
